@@ -17,8 +17,8 @@ sudo /home/pi/RetroPie-Setup/scriptmodules/ports/minecraft.sh
 #copy appropriate script files
 
 cd /home/pi/RetroPie/roms/minecraft/
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraft2.6.sh
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraft3.0.sh
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft2.6.sh
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft3.0.sh
 
 
 #Install Minecraft to Emulation Station as its own device menu
@@ -29,12 +29,12 @@ sudo mkdir /etc/emulationstation/themes/simple/minecraft
 sudo mkdir /etc/emulationstation/themes/simple/minecraft/art/
 
 cd /etc/emulationstation/themes/simple/minecraft/
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraftmenu/theme.xml
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraftmenu/theme.xml
 
 cd /etc/emulationstation/themes/simple/minecraft/art/
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraftmenu/art/minecraft.png
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraftmenu/art/minecraft_art.png
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/blob/master/minecraftmenu/art/minecraft_art_blur.png
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraftmenu/art/minecraft.png
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraftmenu/art/minecraft_art.png
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraftmenu/art/minecraft_art_blur.png
 
 cd /home/pi/RetroPie/roms/minecraft
 
