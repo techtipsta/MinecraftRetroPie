@@ -2,8 +2,6 @@
 
 #install needed software from apt
 
-read -p "Press anykey to start Minecraft install, input sudo credentials if asked `echo $'\n> '`" -n1 -s
-
 sudo apt-get -y install matchbox
 
 #create folders for install
@@ -19,7 +17,6 @@ sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft.s
 
 #Install Minecraft to Emulation Station as its own device menu
 
-read -p "Installing Minecraft menu to Emulation Station, press anykey to continue `echo $'\n> '`" -n1 -s
 sudo sed -i -e 's|</systemList>|<system>\n<name>minecraft</name>\n<fullname>Minecraft</fullname>\n<path>~/RetroPie/roms/minecraft</path>\n<extension>.sh .SH</extension>\n<command>xinit /home/pi/RetroPie/roms/minecraft/minecraft.sh</command>\n<platform>minecraft</platform>\n<theme>minecraft</theme>\n</system>\n</systemList>|g' /etc/emulationstation/es_systems.cfg
 sudo mkdir /etc/emulationstation/themes/simple/minecraft
 sudo mkdir /etc/emulationstation/themes/simple/minecraft/art/
