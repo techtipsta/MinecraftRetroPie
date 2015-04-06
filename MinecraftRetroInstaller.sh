@@ -4,7 +4,7 @@
 
 read -p "Press anykey to start Minecraft install, input sudo credentials if asked `echo $'\n> '`" -n1 -s
 
-sudo apt-get update && sudo apt-get -y install matchbox
+sudo apt-get -y install matchbox
 
 #create folders for install
 
@@ -14,7 +14,7 @@ sudo mkdir /home/pi/RetroPie/roms/minecraft
 
 cd /home/pi/RetroPie/roms/minecraft/
 #sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft2.6.sh
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft3.0.sh
+sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft.sh
 
 
 #Install Minecraft to Emulation Station as its own device menu
@@ -36,7 +36,7 @@ cd /home/pi/RetroPie/roms/minecraft
 
 #Chmod scripts to be runnable
 
-chmod +x minecraft2.6.sh
-chmod +x minecraft3.0.sh
+#chmod +x minecraft2.6.sh
+chmod +x minecraft.sh
 
-echo -e "\nEverything done! Now reboot the Pi and you are all set \n"
+echo -e "\nEverything done! \n"
