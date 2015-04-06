@@ -10,7 +10,7 @@ sudo apt-get update && sudo apt-get -y install matchbox
 
 sudo mkdir /home/pi/RetroPie/roms/minecraft
 sudo mkdir /home/pi/minecraft
-sudo mkdir /opt/minecraft-pi/minecraft-pi
+sudo mkdir /opt/retropie/ports/minecraft-pi
 
 #run minecraft install script
 
@@ -19,8 +19,8 @@ sudo mkdir /opt/minecraft-pi/minecraft-pi
 
 cd /home/pi/minecraft
 wget https://s3.amazonaws.com/assets.minecraft.net/pi/minecraft-pi-0.1.1.tar.gz
-tar -zxvf minecraft-pi-0.1.1.tar.gz
-sudo mv /home/pi/minecraft/mcpi/* /opt/minecraft-pi/minecraft-pi/
+sudo tar -zxvf minecraft-pi-0.1.1.tar.gz
+sudo mv /home/pi/minecraft/mcpi/* /opt/retropie/ports/minecraft-pi/
 
 #copy appropriate script files
 
