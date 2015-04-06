@@ -12,7 +12,8 @@ sudo mkdir /home/pi/RetroPie/roms/minecraft
 
 #run minecraft install script
 
-sudo /home/pi/RetroPie-Setup/scriptmodules/ports/minecraft.sh
+cd /home/pi/RetroPie-Setup/scriptmodules/ports/
+sudo ./minecraft.sh
 
 #copy appropriate script files
 
