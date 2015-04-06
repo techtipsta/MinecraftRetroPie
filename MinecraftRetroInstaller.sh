@@ -13,14 +13,14 @@ sudo mkdir /home/pi/RetroPie/roms/minecraft
 #copy appropriate script files
 
 cd /home/pi/RetroPie/roms/minecraft/
-sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft2.6.sh
+#sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft2.6.sh
 sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft3.0.sh
 
 
 #Install Minecraft to Emulation Station as its own device menu
 
 read -p "Installing Minecraft menu to Emulation Station, press anykey to continue `echo $'\n> '`" -n1 -s
-sudo sed -i -e 's|</systemList>|<system>\n<name>minecraft</name>\n<fullname>Minecraft</fullname>\n<path>~/RetroPie/roms/minecraft</path>\n<extension>.sh .SH</extension>\n<command>bash %ROM%</command>\n<platform>minecraft</platform>\n<theme>minecraft</theme>\n</system>\n</systemList>|g' /etc/emulationstation/es_systems.cfg
+sudo sed -i -e 's|</systemList>|<system>\n<name>minecraft</name>\n<fullname>Minecraft</fullname>\n<path>~/RetroPie/roms/minecraft</path>\n<extension>.sh .SH</extension>\n<command>xinit /home/pi/RetroPie/roms/minecraft/minecraft.sh</command>\n<platform>minecraft</platform>\n<theme>minecraft</theme>\n</system>\n</systemList>|g' /etc/emulationstation/es_systems.cfg
 sudo mkdir /etc/emulationstation/themes/simple/minecraft
 sudo mkdir /etc/emulationstation/themes/simple/minecraft/art/
 
