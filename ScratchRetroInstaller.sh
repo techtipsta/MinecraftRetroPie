@@ -3,8 +3,8 @@
 #install needed software from apt
 
 sudo apt-get update
-sudo apt-get -y install matchbox
-sudo apt-get -y install scratch
+sudo apt-get dist-upgrade
+sudo apt-get -y install matchbox chromium x11-xserver-utils ttf-mscorefonts-installer xwit sqlite3 libnss3
 
 #create folders for install
 
@@ -13,9 +13,10 @@ sudo mkdir /home/pi/RetroPie/roms/scratch
 #copy appropriate script files
 
 cd /home/pi/RetroPie/roms/scratch
-#sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratch1.4.sh
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratch.sh
-
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Pony-Math.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Scratch-Napped.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Rabbit-Eats-Math-for-Breakfast-Pi.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Foil-Mario.sh
 
 #Install Scratch to Emulation Station as its own device menu
 
@@ -35,7 +36,9 @@ cd /home/pi/RetroPie/roms/scratch
 
 #Chmod scripts to be runnable
 
-#chmod +x scratch1.4.sh
-sudo chmod +x scratch.sh
+sudo chmod +x Pony-Math.sh
+sudo chmod +x Scratch-Napped.sh
+sudo chmod +x Rabbit-Eats-Math-for-Breakfast-Pi.sh
+sudo chmod +x Foil-Mario.sh
 
 echo -e "\nEverything done! \n"
