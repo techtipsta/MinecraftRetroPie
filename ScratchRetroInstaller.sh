@@ -3,6 +3,7 @@
 #install needed software from apt
 
 sudo apt-get -y install matchbox
+sudo apt-get -y install scratch
 
 #create folders for install
 
