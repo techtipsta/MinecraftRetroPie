@@ -16,7 +16,7 @@ cd /home/pi/RetroPie/roms/scratch
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Pony-Math.sh
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Scratch-Napped.sh
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Rabbit-Eats-Math-for-Breakfast-Pi.sh
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/Foil-Mario.sh
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/FOIL-Mario.sh
 
 #Install Scratch to Emulation Station as its own device menu
 
