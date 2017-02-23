@@ -11,7 +11,7 @@ sudo mkdir /home/pi/RetroPie/roms/scratch
 #copy appropriate script files
 
 cd /home/pi/RetroPie/roms/scratch
-#sudo wget https://github.com/techtipsta/MinecraftRetroPie/raw/master/minecraft2.6.sh
+#sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratch1.4.sh
 sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratch.sh
 
 
@@ -33,7 +33,7 @@ cd /home/pi/RetroPie/roms/scratch
 
 #Chmod scripts to be runnable
 
-#chmod +x scratch.sh
+#chmod +x scratch1.4.sh
 chmod +x scratch.sh
 
 echo -e "\nEverything done! \n"
