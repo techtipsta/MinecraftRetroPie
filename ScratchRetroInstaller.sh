@@ -22,12 +22,12 @@ sudo mkdir /etc/emulationstation/themes/simple/scratch
 sudo mkdir /etc/emulationstation/themes/simple/scratch/art/
 
 cd /etc/emulationstation/themes/simple/scratch/
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratchmenu/theme.xml
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/minecraftmenu/theme.xml
 
 cd /etc/emulationstation/themes/simple/scratch/art/
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratchmenu/art/scratch.png
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratchmenu/art/scratch_art.png
-sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/scratchmenu/art/scratch_art_blur.png
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/minecraftmenu/art/scratch.png
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/minecraftmenu/art/scratch_art.png
+sudo wget https://github.com/punkbass/ScratchRetroPie/raw/master/minecraftmenu/art/scratch_art_blur.png
 
 cd /home/pi/RetroPie/roms/scratch
 
