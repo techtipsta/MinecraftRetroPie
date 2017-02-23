@@ -35,6 +35,6 @@ cd /home/pi/RetroPie/roms/scratch
 #Chmod scripts to be runnable
 
 #chmod +x scratch1.4.sh
-chmod +x scratch.sh
+sudo chmod +x scratch.sh
 
 echo -e "\nEverything done! \n"
