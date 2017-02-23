@@ -3,4 +3,4 @@ xset -dpms  # disable DPMS (Energy Star) features.
 xset s off  # disable screen saver
 xset s noblank  # don't blank the video device
 matchbox-window-manager &
-/opt/retropie/ports/minecraft/minecraft-pi
+/opt/retropie/ports/scratch/scratch
